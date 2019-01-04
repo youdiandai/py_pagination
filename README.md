@@ -1,5 +1,5 @@
 # py_pagination
-General purpose widget for paging
+通用的页面分页小工具
 
 1. 在需要分页的页面引入pagination.js和jquery.js
 ```html
