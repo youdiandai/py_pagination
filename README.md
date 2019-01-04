@@ -1,5 +1,5 @@
 # py_pagination
-General purpose widget for paging
+通用的页面分页小工具
 ## 使用方法
 1. 在需要分页的页面引入pagination.js和jquery.js
 ```html
@@ -58,5 +58,3 @@ def get_person():
 ~/Documents/work/py_pagination/demo#python app.py
 ```
 2. 使用浏览器访问http://127.0.0.1:5000
-
-
