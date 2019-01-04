@@ -1,6 +1,6 @@
 # py_pagination
 General purpose widget for paging
-
+## 使用方法
 1. 在需要分页的页面引入pagination.js和jquery.js
 ```html
     <script src="{{ url_for("static",filename="pagination.js") }}"></script>
@@ -47,3 +47,16 @@ def get_person():
 ```
 在程序中引用pagination.py,并在路由中初始化模块中定义的Pagination类，该类接收三个参数，需要分页的数据的集合，页数，每页的元素个数
 最后调用Pagination实例的get_dict方法，将结果作为json返回
+
+## demo使用方法
+需要python3
+
+1. 创建虚拟环境
+```
+~/Documents/work/py_pagination/demo#virtualenv -p python3 venv
+~/Documents/work/py_pagination/demo#pip install flask
+~/Documents/work/py_pagination/demo#python app.py
+```
+2. 使用浏览器访问http://127.0.0.1:5000
+
+
