@@ -51,7 +51,7 @@ def get_person():
 ## demo使用方法
 需要python3
 
-1. 创建虚拟环境
+1. 创建虚拟环境并运行
 ```
 ~/Documents/work/py_pagination/demo#virtualenv -p python3 venv
 ~/Documents/work/py_pagination/demo#pip install flask
