@@ -22,6 +22,7 @@
     <div>
         <div id="widget"></div>
     </div>
+</table>
 ```
 表格需要设置id (这里为设置为table)，并在需要放置导航栏的地方放置一个div，也需要设置id(这里设置为widget)
 
